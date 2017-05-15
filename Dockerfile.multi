@@ -15,3 +15,4 @@ WORKDIR /root/
 COPY --from=0 /go/src/github.com/alexellis/href-counter/app    .
 
 CMD ["./app"]
+CMD ["url=https://codefresh.io/ go run app.go"]
